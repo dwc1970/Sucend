@@ -1,0 +1,34 @@
+Date: 4/9/2023
+Time: 21:51
+Phone Number: +54 9 2604 38-6415
+Message: Hola, se ha registrado un nuevo usuario:Nombre: Andres WinckerDocumento: 1234567Dirección: sucasa 3Observaciones: abc
+--------------------
+Date: 4/9/2023
+Time: 22:49
+Phone Number: +54 9 2604 38-6415
+Message: El plazo se ha vencido, acerquese lo mas pronto posible por nuestra sucursal:Nombre: Andres Wick Documento:xxxxxxxx Dirección:sucasa 23 Observaciones: venciemiento
+--------------------
+
+__________:_:__________
+importante
+import datetime
+
+def verificar_vencimiento():
+  hora_actual = datetime.datetime.now()
+  fecha_vence = '2023-09-05'
+  fecha_vence_dt = datetime.strptime(fecha_vence, '%Y-%m-%d')
+
+  if hora_actual >= fecha_vence_dt :
+    print('La fecha ha vencido.')
+
+verificar_vencimiento()
+                                      <<<<  codigo para revisar para que envie los wathsap correctamente>>>Date: 6/9/2023
+Time: 20:42
+Phone Number:  +54 9 2604012070
+Message: Hola, se ha registrado un nuevo usuario:Nombre: DARIODocumento: 123Dirección: CASA1Observaciones: SIN OBSERVACIONES
+--------------------
+Date: 13/9/2023
+Time: 18:45
+Phone Number: +5492604012070
+Message: Hola, este es un mensaje automático de Python.
+--------------------
